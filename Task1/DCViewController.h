@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface DCViewController : UIViewController
+- (IBAction)ConnectAction:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *textWebLabel;
 
 @end
